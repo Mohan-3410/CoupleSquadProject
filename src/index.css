@@ -1,13 +1,114 @@
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+h1{
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
+
+a:hover {
+  color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  text-align: left;
+  color: #0056b3;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: #333 solid 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#avatar {
+  border-radius: 50%;
+  border: #333 solid 2px;
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  display: block;
+}
+
+#name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#about {
+  text-align: center;
+  line-height: 1.6;
+}
+
+
+/* UsersPage */
+
+#containerMain {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  float: left;
+  margin-right: 15px;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 2px;
+}
+.user-email {
+  font-weight: lighter;
+}
+
+
+
